@@ -1,10 +1,15 @@
 
 public class SortingByArray {
 
-	protected int[] items;
+	private int[] items;
 
 	public SortingByArray(int nbrItems) {
 		this.items=new int [nbrItems];
+	}
+	
+	
+	public int numberOccurencies(int nbrItems) {
+		this.items[nbrItems];
 	}
 
 	protected void addItem(int valeur) {
@@ -15,6 +20,8 @@ public class SortingByArray {
 		return this.items[valeur] > 0;
 	}
 
+ 
+	
 
 public SortedItemsIterator createIterator()
 
